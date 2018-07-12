@@ -25,7 +25,7 @@ public class OperRodrigo extends OperEx {
         } else if (op1 > 0 && op2 == 0) {
             System.out.println("O ponto está acima do eixo \"x\" e sobre o eixo \"y\"");
         } else {
-            System.out.println("O ponto está sobre o eixo \"x\" e sobre o eixo \"y\"");
+            System.out.println("O ponto está sobre o eixo \"x\" e sobre o eixo \"y\" ");
         }
         return 0;
     }
