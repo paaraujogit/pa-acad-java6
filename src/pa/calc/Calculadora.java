@@ -5,10 +5,14 @@ public class Calculadora {
 	public static void main(String[] args) {
 		
 		// OperEx Example
-		OperEx opex=new OperEx();
+		/*OperEx opex=new OperEx();
 		double resEx = opex.oper(1, 2);
-		System.out.println(resEx);
+		System.out.println(resEx);*/
 		
+                OperExAn opex = new OperExAn();
+                double resEx = opex.oper(1, 2);
+		System.out.println(resEx);
+                
 		// ToDo - All Students Must Implement one Operation
 		// - Oper0X - Name
 	    // Oper0X ope0X=new Oper0X();
