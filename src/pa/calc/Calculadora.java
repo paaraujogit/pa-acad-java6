@@ -9,6 +9,11 @@ public class Calculadora {
 		double resEx = opex.oper(1, 2);
 		System.out.println(resEx);
 		
+		// OperHVA Example
+		OperHVA OperHVA = new OperHVA();
+		double resHVA=OperHVA.oper(3,100);
+		System.out.println(resHVA);
+		
 		// ToDo - All Students Must Implement one Operation
 		// - Oper0X - Name
 	    // Oper0X ope0X=new Oper0X();
