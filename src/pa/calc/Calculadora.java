@@ -39,7 +39,8 @@ public class Calculadora {
 	     OperSi opex=new OperSi();
 	     double res0X = opex.oper(5, 4);
 	     System.out.println(res0X);
+                // Oper Plano Cartesiano - Rodrigo
              OperRodrigo operR = new OperRodrigo();
-                operR.oper(-5, 2);
+             operR.oper(-5, 2);
 	}
 }
