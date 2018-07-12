@@ -1,13 +1,10 @@
 package pa.calc;
+
+
 /**
  * @author rform
  */
-public final class OperRodrigo extends OperEx {
-    private double n1, n2, n3, n4;
-    
-    public void metodo() {
-        System.out.println("test");
-    }
+public class OperRodrigo extends OperEx {
     
     @Override
     public double oper(double op1, double op2) {
