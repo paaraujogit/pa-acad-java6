@@ -29,24 +29,22 @@ public class Calculadora {
 	    
 		// - OperJV - JV
 	    OperJV opeJV=new OperJV();
-	     double resJV = opePA.oper(3, 4);
+	    double resJV = opePA.oper(3, 4);
 	    System.out.println("JV: (3,4)"+resJV);
-	    
-	    
 	    
 	    // OperSum
 	    OperSum sum = new OperSum();
 	    double sumResult = sum.oper(1, 2);
 	    System.out.println("The sum of the 2 numbers is: " + sumResult);
 	    
-		// - Oper0X - Simone
-	     OperSi opex=new OperSi();
-	     double res0X = opex.oper(5, 4);
-	     System.out.println(res0X);
+		// - OperSi - Simone
+        OperSi opex=new OperSi();
+	    double res0X = opex.oper(2,15 );
+	    System.out.println(res0X);
 
-             // Oper Plano Cartesiano - Rodrigo .
-             OperRodrigo operR = new OperRodrigo();
-             operR.oper(-5, 2);
+        // Oper Plano Cartesiano - Rodrigo .
+        OperRodrigo operR = new OperRodrigo();
+        operR.oper(-5, 2);
 	     
 	}
 }
