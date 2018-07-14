@@ -4,13 +4,12 @@ public class Calculadora {
 
 	public static void main(String[] args) {
 		
-/*		// OperEx Example
+/*
+		// ToDo - All Students Must Implement one Operation
+		// OperEx Example
 		OperEx opex=new OperEx();
 		double resEx = opex.oper(1, 3);
 		System.out.println(resEx);
-<<<<<<< HEAD
-		
-=======
 */
 		
 		// OperHVA Example
@@ -33,14 +32,14 @@ public class Calculadora {
 	    double sumResult = sum.oper(1, 2);
 	    System.out.println("The sum of the 2 numbers is: " + sumResult);
 	    
-//>>>>>>> 4e087ce1ec428ddfa838bf4774e0e4962cfc28ff
-		// ToDo - All Students Must Implement one Operation
 		// - Oper0X - Simone
 	     OperSi opex=new OperSi();
 	     double res0X = opex.oper(5, 4);
 	     System.out.println(res0X);
-                // Oper Plano Cartesiano - Rodrigo .
+
+             // Oper Plano Cartesiano - Rodrigo .
              OperRodrigo operR = new OperRodrigo();
              operR.oper(-5, 2);
+	     
 	}
 }
