@@ -4,7 +4,9 @@ public class Calculadora {
 
 	public static void main(String[] args) {
 		
-/*		// OperEx Example
+/*
+		// ToDo - All Students Must Implement one Operation
+		// OperEx Example
 		OperEx opex=new OperEx();
 		double resEx = opex.oper(1, 3);
 		System.out.println(resEx);
@@ -25,14 +27,24 @@ public class Calculadora {
 	     double resPA = opePA.oper(2, 3);
 	    System.out.println("Paulo: (2,3)"+resPA);
 	    
+		// - OperJV - JV
+	    OperJV opeJV=new OperJV();
+	    double resJV = opePA.oper(3, 4);
+	    System.out.println("JV: (3,4)"+resJV);
+	    
 	    // OperSum
 	    OperSum sum = new OperSum();
 	    double sumResult = sum.oper(1, 2);
 	    System.out.println("The sum of the 2 numbers is: " + sumResult);
 	    
 		// - OperSi - Simone
-	     OperSi opex=new OperSi();
-	     double res0X = opex.oper(2,15 );
-	     System.out.println(res0X);
+        OperSi opex=new OperSi();
+	    double res0X = opex.oper(2,15 );
+	    System.out.println(res0X);
+
+        // Oper Plano Cartesiano - Rodrigo .
+        OperRodrigo operR = new OperRodrigo();
+        operR.oper(-5, 2);
+	     
 	}
 }
