@@ -30,10 +30,9 @@ public class Calculadora {
 	    double sumResult = sum.oper(1, 2);
 	    System.out.println("The sum of the 2 numbers is: " + sumResult);
 	    
-		// ToDo - All Students Must Implement one Operation
-		// - Oper0X - Simone
+		// - OperSi - Simone
 	     OperSi opex=new OperSi();
-	     double res0X = opex.oper(5, 4);
+	     double res0X = opex.oper(2,15 );
 	     System.out.println(res0X);
 	}
 }
