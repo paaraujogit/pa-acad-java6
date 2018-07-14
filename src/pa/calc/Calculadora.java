@@ -27,6 +27,13 @@ public class Calculadora {
 	     double resPA = opePA.oper(2, 3);
 	    System.out.println("Paulo: (2,3)"+resPA);
 	    
+		// - OperJV - JV
+	    OperJV opeJV=new OperJV();
+	     double resJV = opePA.oper(3, 4);
+	    System.out.println("JV: (3,4)"+resJV);
+	    
+	    
+	    
 	    // OperSum
 	    OperSum sum = new OperSum();
 	    double sumResult = sum.oper(1, 2);
